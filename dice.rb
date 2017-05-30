@@ -1,7 +1,9 @@
 class Dice
+  attr_reader :roll_result
 
   def initialize(name)
     @name = name
+
   end
 
   def roll_result

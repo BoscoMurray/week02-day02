@@ -7,13 +7,13 @@ check_winner()
 
 PLAYER
 name - String
-position - Integer
-dice.roll()
+position - Integer (initial position 1)
+dice.roll_result()
 
 
 DICE
 name - String
-roll()
+roll_result()
 
 
 LADDER
