@@ -1,0 +1,30 @@
+BOARD
+name - String
+winning_square - Integer
+move_player()
+check_winner()
+
+
+PLAYER
+name - String
+position - Integer
+dice.roll()
+
+
+DICE
+name - String
+roll()
+
+
+LADDER
+name - String
+topandbottom - array
+top - Integer
+bottom - Integer
+
+
+SNAKE
+name - String
+topandbottom - array
+top - Integer
+bottom - Integer
