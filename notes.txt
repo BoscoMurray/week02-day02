@@ -1,8 +1,11 @@
 BOARD
 name - String
-winning_square - Integer
-move_player()
-check_winner()
+players - Array
+ladders - Array
+snakes - Array
+player_takes_turn()
+check_for_winner()
+turn_counter()
 
 
 PLAYER
@@ -18,13 +21,13 @@ roll_result()
 
 LADDER
 name - String
-topandbottom - array
 top - Integer
 bottom - Integer
+climb_up()
 
 
 SNAKE
 name - String
-topandbottom - array
 top - Integer
 bottom - Integer
+slide_down()

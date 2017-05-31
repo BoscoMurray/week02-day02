@@ -1,4 +1,6 @@
 class Player
+  attr_reader :name
+  attr_accessor :position
 
   def initialize(name)
     @name = name
@@ -6,7 +8,7 @@ class Player
   end
 
   def roll_dice(dice)
-    return @position = dice.roll_result
+    return @position += dice.roll_result
   end
 
 end
